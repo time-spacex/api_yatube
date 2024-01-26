@@ -27,8 +27,6 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'posts.apps.PostsConfig',
     'api.apps.ApiConfig',
-    # delete 'django_extensions' option before uploading on yandex platform
-    'django_extensions',
 ]
 
 MIDDLEWARE = [
